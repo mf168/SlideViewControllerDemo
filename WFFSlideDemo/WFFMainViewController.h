@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WFFMainViewController.h
 //  WFFSlideDemo
 //
 //  Created by wff on 15/8/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface WFFMainViewController : UIViewController
 
 @end
-

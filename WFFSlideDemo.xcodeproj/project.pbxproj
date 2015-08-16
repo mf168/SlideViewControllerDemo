@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		458A6CA41B805367003DD822 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 458A6CA31B805367003DD822 /* main.m */; };
 		458A6CA71B805367003DD822 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 458A6CA61B805367003DD822 /* AppDelegate.m */; };
-		458A6CAA1B805367003DD822 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 458A6CA91B805367003DD822 /* ViewController.m */; };
-		458A6CAD1B805367003DD822 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 458A6CAB1B805367003DD822 /* Main.storyboard */; };
 		458A6CAF1B805367003DD822 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 458A6CAE1B805367003DD822 /* Images.xcassets */; };
 		458A6CB21B805367003DD822 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 458A6CB01B805367003DD822 /* LaunchScreen.xib */; };
 		458A6CBE1B805367003DD822 /* WFFSlideDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 458A6CBD1B805367003DD822 /* WFFSlideDemoTests.m */; };
+		458A6CC91B80538E003DD822 /* WFFLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 458A6CC81B80538E003DD822 /* WFFLeftViewController.m */; };
+		458A6CCC1B80540B003DD822 /* WFFMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 458A6CCB1B80540B003DD822 /* WFFMainViewController.m */; };
+		458A6CCF1B805479003DD822 /* UIView+WFFGeneral.m in Sources */ = {isa = PBXBuildFile; fileRef = 458A6CCE1B805479003DD822 /* UIView+WFFGeneral.m */; };
+		458A6CD31B8054F7003DD822 /* UIImage+WFFBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 458A6CD21B8054F7003DD822 /* UIImage+WFFBlur.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,19 @@
 		458A6CA31B805367003DD822 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		458A6CA51B805367003DD822 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		458A6CA61B805367003DD822 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		458A6CA81B805367003DD822 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		458A6CA91B805367003DD822 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		458A6CAC1B805367003DD822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		458A6CAE1B805367003DD822 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		458A6CB11B805367003DD822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		458A6CB71B805367003DD822 /* WFFSlideDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFFSlideDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		458A6CBC1B805367003DD822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		458A6CBD1B805367003DD822 /* WFFSlideDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFFSlideDemoTests.m; sourceTree = "<group>"; };
+		458A6CC71B80538E003DD822 /* WFFLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFFLeftViewController.h; sourceTree = "<group>"; };
+		458A6CC81B80538E003DD822 /* WFFLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFFLeftViewController.m; sourceTree = "<group>"; };
+		458A6CCA1B80540B003DD822 /* WFFMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFFMainViewController.h; sourceTree = "<group>"; };
+		458A6CCB1B80540B003DD822 /* WFFMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFFMainViewController.m; sourceTree = "<group>"; };
+		458A6CCD1B805479003DD822 /* UIView+WFFGeneral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WFFGeneral.h"; sourceTree = "<group>"; };
+		458A6CCE1B805479003DD822 /* UIView+WFFGeneral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WFFGeneral.m"; sourceTree = "<group>"; };
+		458A6CD11B8054F7003DD822 /* UIImage+WFFBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WFFBlur.h"; sourceTree = "<group>"; };
+		458A6CD21B8054F7003DD822 /* UIImage+WFFBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WFFBlur.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +88,13 @@
 		458A6CA01B805367003DD822 /* WFFSlideDemo */ = {
 			isa = PBXGroup;
 			children = (
+				458A6CD01B8054CF003DD822 /* Category */,
 				458A6CA51B805367003DD822 /* AppDelegate.h */,
 				458A6CA61B805367003DD822 /* AppDelegate.m */,
-				458A6CA81B805367003DD822 /* ViewController.h */,
-				458A6CA91B805367003DD822 /* ViewController.m */,
-				458A6CAB1B805367003DD822 /* Main.storyboard */,
+				458A6CCA1B80540B003DD822 /* WFFMainViewController.h */,
+				458A6CCB1B80540B003DD822 /* WFFMainViewController.m */,
+				458A6CC71B80538E003DD822 /* WFFLeftViewController.h */,
+				458A6CC81B80538E003DD822 /* WFFLeftViewController.m */,
 				458A6CAE1B805367003DD822 /* Images.xcassets */,
 				458A6CB01B805367003DD822 /* LaunchScreen.xib */,
 				458A6CA11B805367003DD822 /* Supporting Files */,
@@ -117,6 +126,17 @@
 				458A6CBC1B805367003DD822 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		458A6CD01B8054CF003DD822 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				458A6CCD1B805479003DD822 /* UIView+WFFGeneral.h */,
+				458A6CCE1B805479003DD822 /* UIView+WFFGeneral.m */,
+				458A6CD11B8054F7003DD822 /* UIImage+WFFBlur.h */,
+				458A6CD21B8054F7003DD822 /* UIImage+WFFBlur.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +219,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				458A6CAD1B805367003DD822 /* Main.storyboard in Resources */,
 				458A6CB21B805367003DD822 /* LaunchScreen.xib in Resources */,
 				458A6CAF1B805367003DD822 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +238,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				458A6CAA1B805367003DD822 /* ViewController.m in Sources */,
 				458A6CA71B805367003DD822 /* AppDelegate.m in Sources */,
+				458A6CCC1B80540B003DD822 /* WFFMainViewController.m in Sources */,
+				458A6CD31B8054F7003DD822 /* UIImage+WFFBlur.m in Sources */,
 				458A6CA41B805367003DD822 /* main.m in Sources */,
+				458A6CCF1B805479003DD822 /* UIView+WFFGeneral.m in Sources */,
+				458A6CC91B80538E003DD822 /* WFFLeftViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +266,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		458A6CAB1B805367003DD822 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				458A6CAC1B805367003DD822 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		458A6CB01B805367003DD822 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -348,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WFFSlideDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +373,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WFFSlideDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

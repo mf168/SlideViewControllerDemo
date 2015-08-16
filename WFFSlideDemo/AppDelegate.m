@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "WFFMainViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    WFFMainViewController *loginVc = [[WFFMainViewController alloc] init];
+    _navigationController = [[UINavigationController alloc] initWithRootViewController:loginVc];
+    self.window.rootViewController = _navigationController;
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
